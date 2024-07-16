@@ -10,6 +10,11 @@
   - create an new user with AdministrativeAccess in console and Generate Access key & Sercret Access Key
   - run in server, aws configure        # provide the details asked.
   - above details will be stored inside ".aws" directory.
+  curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+  sudo apt install unzip -y
+  unzip -o awscliv2.zip
+  sudo ./aws/install --update
+  aws --version
 
 3. Create an folder & put terraform code in ".tf" format.
 
